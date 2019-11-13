@@ -1,14 +1,17 @@
 {
-  "name": "keijiban",
-  "private": true,
-  "dependencies": {
-    "@rails/webpacker": "3.5",
-    "admin-lte": "^3.0.0-alpha.2",
-    "bootstrap": "^4.1.3",
-    "import-glob-loader": "^1.1.0",
-    "jquery": "^3.3.1",
-    "json3": "^3.3.3",
-    "rails-ujs": "^5.2.0"
-  },
-  "devDependencies": {}
+    "name": "keijiban",
+    "private": true,
+    "hard-source-webpack-plugin": "https://github.com/talkable/hard-source-webpack-plugin#build",
+
+    "dependencies": {
+        "@rails/webpacker": "3.5",
+        "admin-lte": "^3.0.0-alpha.2",
+        "bootstrap": "^4.1.3",
+        "import-glob-loader": "^1.1.0",
+        "jquery": "^3.3.1",
+        "json3": "^3.3.3",
+        "rails-ujs": "^5.2.0"
+    },
+    "scripts": { "FIXFIX": "webpack --progress --profile --colors --display-error-details --display-cached" },
+    "devDependencies": {}
 }
